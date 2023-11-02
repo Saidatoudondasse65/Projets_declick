@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100&display=swap');
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar {
+    background-color: rgb(185, 194, 194);
+}
+
+.nav-link {
+    color: rgb(31, 23, 23);
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: black;
+}
+
+.navbar::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #FFA500;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+span {
+    color: rgb(255, 55, 0);
+}
+
+
+.banner {
+    background: #a770ef;
+    background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+}
+
+.container-fluid {
+    padding-top: 30px;
+}
+
+.row img {
+    width: 250px;
+    height: 200px;
+}
+
+
+.no-padding {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+}

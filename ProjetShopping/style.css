@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100&display=swap');
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar {
+    background-color: rgb(185, 194, 194);
+}
+
+.nav-link {
+    color: rgb(31, 23, 23);
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: black;
+}
+
+.navbar::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #FFA500;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+span {
+    color: rgb(255, 55, 0);
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+.carousel-item img {
+    height: 100vh;
+    min-height: 100vh;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: contain;
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.6;
+}
+
+#petit img {
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-caption {
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5 {
+    font-size: 100px;
+    font-weight: 700;
+    color: rgb(240, 236, 236);
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    top: 2rem;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gallery {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+
+}
+
+.content {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25, 0 10px 10px) rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: white;
+}
+
+.content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+.content img {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+}
+
+button {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy-1 {
+    background: #2183a2;
+}
+
+.buy-2 {
+    background: #3b3e6e;
+}
+
+.buy-3 {
+    background: #0b0b0b;
+}
+
+.buy-4 {
+    background: #ff9f43;
+}
+
+@media (max-width:1000px) {
+    .content {
+        width: 45%;
+
+    }
+
+    .content img {
+        width: 100%;
+    }
+}
+
+@media (max-width:750px) {
+    .content {
+        width: 100%;
+    }
+
+}
+
+.grande {
+    background: #f2f2f2;
+    width: 100%;
+    height: auto;
+}
+
+.grande h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: #2183a2;
+
+
+}
+
+.grande #aug {
+    font-size: 1.2em;
+    padding-top: 20px;
+    color: #0b0b0b;
+
+}
+
+.comment {
+    width: 100%;
+    height: auto;
+}
+
+.comment h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: #738cee;
+}
+
+.gallery2 {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+}
+
+.comment .content {
+    background-color: #e2dede;
+}
+
+.gallery2 p {
+    color: #0b0b0b;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .comment {
+        margin-top: 100px;
+    }
+}
+
+#centre {
+    text-align: center;
+    color: rgb(12, 8, 8);
+    margin: auto;
+    font-size: 1.2em;
+
+}
+
+.comment h3 {
+    color: #2183a2;
+}
+
+.comment p {
+    color: rgb(69, 64, 64);
+
+}
+
+.propos {
+    width: 100%;
+    height: auto;
+    background-color: #d1cccc;
+
+}
+
+.no-padding {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+}
