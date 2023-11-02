@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAE1;
+
+
+
+}
+
+.header {
+    background-color: rgb(19, 19, 19);
+    margin: 20px 100px;
+    height: 200px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.header h2,
+p {
+    text-align: center;
+    color: azure;
+    padding-top: 20px;
+}
+
+.header h2 {
+    padding-right: 400px;
+    font-size: 3.4em;
+    padding-top: -20px;
+    color: #c8c7c4;
+}
+
+.header p {
+
+    font-size: 1.4em;
+    color: rgb(229, 146, 115);
+}
+
+#gauche h2 {
+    margin-left: 100px;
+    color: rgb(229, 146, 115);
+    background-color: rgb(19, 19, 19);
+    width: 300px;
+    height: 45px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+#gauche pre {
+    margin-left: -9px;
+    color: rgb(23, 18, 18);
+
+}
+
+#droite {
+    float: right;
+    margin-top: -150px;
+    margin-right: 100px;
+}
+
+#droite h2 {
+    color: rgb(229, 146, 115);
+    background-color: rgb(19, 19, 19);
+    width: 500px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#bas h2 {
+    margin-left: 95px;
+    color: rgb(229, 146, 115);
+    background-color: rgb(19, 19, 19);
+    width: 500px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#basdroite {
+    margin-left: 5px;
+    float: right;
+    margin-top: -150px;
+}
+
+
+
+#basdroite h2 {
+    color: rgb(229, 146, 115);
+    background-color: rgb(19, 19, 19);
+    width: 520px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: -150px;
+
+}
+
+#basdroite #centre {
+    color: rgb(23, 18, 18);
+    margin-left: -200px;
+
+}
+
+#basdroite pre {
+    margin-right: 100px;
+}
+
+#basdroite h3 {
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+#cordonnee h2 {
+    margin-left: 90px;
+    color: rgb(229, 146, 115);
+    background-color: rgb(19, 19, 19);
+    width: 400px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#interet {
+    float: right;
+    margin-left: 300px;
+}
+
+#interet h2 {
+    margin-left: 80px;
+    color: rgb(229, 146, 115);
+    background-color: rgb(19, 19, 19);
+    width: 420px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#interet pre {
+    margin-right: 150px;
+}
+
+#fin h2 {
+    margin-left: 90px;
+    color: rgb(229, 146, 115);
+    background-color: rgb(19, 19, 19);
+    width: 400px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.image {
+
+    width: 200px;
+    height: 180px;
+    float: right;
+    padding-right: 50px;
+    padding-top: 10px;
+    border-radius: 50%;
+    padding-left: 50px;
+
+}
+
+@media screen and (max-width: 1220px) {
+    .header {
+        margin: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .header h2 {
+        padding-right: 0;
+        font-size: 2.4em;
+        padding-top: 10px;
+    }
+
+    .header p {
+        font-size: 1em;
+        padding-top: -30px;
+    }
+
+    #gauche h2,
+    #droite h2,
+    #bas h2,
+    #basdroite h2,
+    #cordonnee h2,
+    #interet h2,
+    #fin h2 {
+        width: 500px;
+        height: 40px;
+        font-size: 2em;
+        text-align: center;
+        padding-top: 10px;
+        display: inline-block;
+        /* Ajout de la propriété */
+        overflow-wrap: break-word;
+        /* Ajout de la propriété */
+    }
+
+    .image {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        padding-top: 0;
+    }
+
+    #gauche,
+    #droite,
+    #bas,
+    #basdroite,
+    #cordonnee,
+    #interet {
+        margin-top: -30px;
+        letter-spacing: 0;
+
+    }
+
+    #gauche,
+    #bas,
+    #cordonnee {
+        margin-left: -80px;
+    }
+
+    #droite,
+    #basdroite {
+        margin-top: -150px;
+        margin-right: 15px;
+    }
+
+    #basdroite {
+        margin-right: -100px;
+    }
+
+    #basdroite pre {
+        margin-right: 150px;
+    }
+
+    #basdroite h2 {
+        margin-left: 55px;
+    }
+
+    #fin {
+
+        margin-left: -85px;
+        margin-top: -50px;
+
+
+    }
+}
+
+@media screen and (max-width: 1088px) {}
